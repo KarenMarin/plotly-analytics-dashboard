@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+     <script src="https://unpkg.com/phosphor-icons"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="./Styles/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div>
+                <h1><span class="material-icons brand">data_thresholding</span></h1>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="home.html">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Sobre</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="active">Projetos</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Contato</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                    </ul>
+                    <ul class="options">
+                        <li>
+                            <a href="#">
+                                <span><i class="ph ph-magnifying-glass"></i></span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="notification">
+                                <span><i class="ph ph-bell notification-icon"></i></span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <img src="https://images.unsplash.com/photo-1740252117027-4275d3f84385?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="user" class="profile-img">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="menu-btn">
+                <span class="material-icons">segment</span>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="sidebar">
+        <div class="container">
+            <h3 class="title">Menu</h3>
+            <ul>
+                <li>
+                    <a href="home.html">
+                        <span><i class="ph-house icones"></i></span>
+                        <span>Home</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span><i class="ph-heart icones"></i></span>
+                        <span>Favoritos</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span><i class="ph-lock icones"></i></span>
+                        <span>Segurança</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                         <span><i class="ph-question icones"></i></span>
+                        <span>Ajuda</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                         <span><i class="ph-gear icones"></i></span>
+                        <span>Configurações</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="note">
+                <h1>O que há de novo</h1>
+                <p>Acompanhe as melhorias e recursos que tornam suas análises ainda mais eficientes.</p>
+                <a href="#" class="btn">Saiba Mais</a>
+            </div>
+
+            <div class="sidebar-footer">
+                <p>&copy 2025 Desenvolvido por Karen Marin </p>
+            </div>
+        </div>
+    </nav>
+    <main class="dashboard">
+        <div class="panel list">
+            <li>
+                <h2>Ganhos</h2>
+                <span>Resumo Mensal</span>
+            </li>
+            <li>
+                <h4>Janeiro</h4><span>3.576</span>
+            </li>
+            <li>
+                <h4>Fevereiro</h4><span>3.815</span>
+            </li>
+            <li>
+                <h4>Março</h4><span>4.692</span>
+            </li>
+            <li>
+                <h4>Abril</h4><span>6.854</span>
+            </li>
+            <li>
+                <h4>Maio</h4><span>5.731</span>
+            </li>
+        </div>
+
+        <div id="barChart"></div>
+
+        <div class="goals">
+            <div class="panel goal">
+                 <span><i class="ph ph-check-circle"></i></span>
+                <div>
+                    <div class="goal-title">
+                        <h4>Ganhos Diários</h4>
+                        <h4>R$625</h4>
+                    </div>
+                    <small>Média registrada nas últimas 24 horas.</small>
+                </div>
+            </div>
+
+            <div class="panel goal">
+                <span><i class="ph ph-check-circle"></i></span>
+                <div>
+                    <div class="goal-title">
+                        <h4>Ganhos Mensais</h4>
+                        <h4>R$15.625,00</h4>
+                    </div>
+                    <small>Desempenho total acumulado no mês.</small>
+                </div>
+            </div>
+
+            <div class="panel goal">
+                 <span><i class="ph ph-check-circle"></i></span>
+                <div>
+                    <div class="goal-title">
+                        <h4>Ganhos Anuais</h4>
+                        <h4>R$180.520,00</h4>
+                    </div>
+                    <small>Projeção baseada nos meses anteriores.</small>
+                </div>
+            </div>
+        </div>
+
+        <div id="scientificChart"></div>
+        <div class="sales">
+            <div>
+                <h4>Março</h4>
+                <h1>22</h1>
+                <small>8 dias restantes</small>
+            </div>
+
+            <div>
+                <h4>Reservas</h4>
+                <h1>R$628.245,00</h1>
+                <small>30% do objetivo atingido</small>
+            </div>
+
+            <div>
+                <h4>Conversão</h4>
+                <h1>92%</h1>
+                <small>570 negociações concluídas</small>
+            </div>
+
+            <div>
+                <h4>Novos Clientes</h4>
+                <h1>75</h1>
+                <small>26 conquistados no último mês</small>
+            </div>
+        </div>
+
+        <div id="pieChart"></div>
+
+        <div class="panel list">
+            <li>
+                <h2>Negociações</h2><span>Mensal</span>
+            </li>
+            <li>
+                <h4>Janeiro</h4><span>18</span>
+            </li>
+            <li>
+                <h4>Fevereiro</h4><span>20</span>
+            </li>
+            <li>
+                <h4>Março</h4><span>25</span>
+            </li>
+            <li>
+                <h4>Abril</h4><span>31</span>
+            </li>
+        </div>
+
+        <div class="panel text text-vertical">
+            <h1>Detalhes</h1>
+            <small>Informações gerais</small>
+            <p>Os relatórios atualizados em tempo real permitem que cada usuário acompanhe as informações mais recentes sem precisar
+                esperar por sincronizações manuais. Isso assegura que todas as decisões sejam tomadas com base em dados atualizados.
+                Além disso, a visualização instantânea reduz erros e melhora a agilidade operacional.</p>
+            <p>A análise de desempenho individual é uma ferramenta essencial para entender a evolução de cada membro da equipe. Ela
+                permite identificar pontos fortes, competências em desenvolvimento e áreas que precisam de apoio.
+                Esse tipo de acompanhamento ajuda no crescimento profissional e no alinhamento às metas do projeto.</p>
+            <p>O acompanhamento de metas em andamento permite que gestores e equipes monitorem o progresso real das tarefas e
+                objetivos definidos.
+                Esse controle facilita ajustes estratégicos sempre que necessário, mantendo tudo alinhado ao planejamento inicial.
+            </p>
+            <p>O controle de atividades concluídas oferece uma visão clara de tudo que já foi realizado dentro de um projeto.
+                Isso evita retrabalho e garante que a equipe saiba exatamente em que ponto do processo está.</p>
+        </div>
+
+        <div class="panel text text-horizontal">
+            <h1>Atualizações</h1>
+            <small>Últimas mudanças</small>
+            <p>As melhorias de estabilidade implementadas tornam o sistema mais seguro e menos propenso a falhas.
+                Isso garante uma experiência mais fluida para todos os usuários.</p>
+            <p>O sistema de notificações foi aprimorado para funcionar de forma mais inteligente e personalizada.
+                Agora as mensagens chegam no momento certo e com maior precisão.</p>
+            <p>Foram realizadas diversas correções de bugs menores para garantir um funcionamento mais suave do sistema.
+                Esses pequenos ajustes eliminam falhas que impactavam a experiência do usuário.</p>
+            <p>A nova interface otimizada para dispositivos móveis torna o acesso muito mais confortável e intuitivo.
+                Todos os elementos foram reorganizados para melhor adaptação às telas menores.</p>
+        </div>
+
+        <div id="carpetChart"></div>
+
+        <div class="goals">
+            <div class="panel goal">
+                <span class="material-icons">
+                    fingerprint
+                </span>
+                <div>
+                    <div class="goal-title">
+                        <h4>Privacidade</h4>
+                    </div>
+                    <small>Sua segurança é protegida por camadas de criptografia.</small>
+                </div>
+            </div>
+
+            <div class="panel goal">
+                <span class="material-icons">dashboard</span>
+                <div>
+                    <div class="goal-title">
+                        <h4>Dashboard</h4>
+                    </div>
+                    <small>Visualização completa de dados em tempo real.</small>
+                </div>
+            </div>
+            <div class="panel goal">
+                <span class="material-icons">manage_accounts</span>
+                <div>
+                    <div class="goal-title">
+                        <h4>Gerenciamento</h4>
+                    </div>
+                    <small>Controle facilitado das informações do usuário.</small>
+                </div>
+            </div>
+        </div>
+
+        <div id="donutChart"></div>
+
+    </main>
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+    <script src="./JS/main.js"></script>
+</body>
+
+</html>
