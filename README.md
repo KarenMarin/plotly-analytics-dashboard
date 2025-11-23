@@ -53,4 +53,22 @@ Este repositório demonstra domínio prático em:
 - tecnologias usadas no mercado (Plotly/D3)  
 - criação de interfaces ricas e profissionais  
 - responsividade avançada  
-- estrutura limpa e reutilizável  
+- estrutura limpa e reutilizável
+
+## 🛠 Como Ver o Projeto
+
+Você pode visualizar o dashboard completamente funcionando — incluindo gráficos Plotly, visualizações D3.js e toda a interface responsiva — diretamente pelo link abaixo:
+
+👉 Acesse o projeto online:
+https://plotly-analytics-dashboard.netlify.app/
+
+Não precisa instalar nada:
+✔ carregamento rápido
+✔ totalmente interativo
+✔ funciona no PC e no celular
+✔ pronto para demonstrar conhecimento em data-viz e interfaces modernas
+
+Se quiser rodar localmente:
+git clone https://github.com/KarenMarin/plotly-analytics-dashboard.git
+cd plotly-analytics-dashboard
+# basta abrir o arquivo index.html no navegador
