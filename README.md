@@ -71,4 +71,4 @@ Não precisa instalar nada:
 Se quiser rodar localmente:
 git clone https://github.com/KarenMarin/plotly-analytics-dashboard.git
 cd plotly-analytics-dashboard
-# basta abrir o arquivo index.html no navegador
+**basta abrir o arquivo index.html no navegador**
